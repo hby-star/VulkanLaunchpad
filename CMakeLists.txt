@@ -44,7 +44,7 @@ endif()
 # Vulkan Launchpad Dependencies  #
 #================================#
 
-find_package(Vulkan REQUIRED)
+find_package(Vulkan 1.3.243 EXACT)
 set(ENABLE_GLSLANG_BINARIES OFF)
 set(ENABLE_HLSL OFF)
 set(ENABLE_CTEST OFF)
